@@ -21,7 +21,7 @@ class Cuadrado(Figura):
         perimetro=4*self.lado
         return perimetro
 
-c = Cuadrado(5)
+c = Cuadrado(6)
 print(c.calcular_area())
 print(c.calcular_perimetro())
 d = Figura()
